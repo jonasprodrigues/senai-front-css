@@ -1,0 +1,22 @@
+.minha-caixa {
+            /* 1. CONTENT (Conteúdo) */
+            width: 300px;
+            height: 150px;
+            background-color: #f0f0f0;
+            
+            /* 2. PADDING (Espaçamento Interno) */
+            padding: 20px;
+            
+            /* 3. BORDER (Borda) */
+            border: 5px solid #333;
+            
+            /* 4. MARGIN (Margem) */
+            margin: 40px;
+
+            /* Garante que o padding e a border não aumentem o tamanho final de 300px */
+            box-sizing: border-box; 
+            
+            /* Estilos extras apenas para o texto ficar bonito */
+            font-family: Arial, sans-serif;
+            color: #333;
+}

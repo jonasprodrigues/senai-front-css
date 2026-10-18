@@ -1,0 +1,11 @@
+/* FLEX */
+.flex {
+    display: flex;
+    gap: 10px;
+}
+.flex div {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+
